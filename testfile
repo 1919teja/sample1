@@ -1,0 +1,25 @@
+lotuswave@Lotuswaves-MBP Simple-DevOps-Project % sudo port install git
+sudo: port: command not found
+lotuswave@Lotuswaves-MBP Simple-DevOps-Project % git pull
+Already up to date.
+lotuswave@Lotuswaves-MBP Simple-DevOps-Project % git pull
+Already up to date.
+lotuswave@Lotuswaves-MBP Simple-DevOps-Project % git fetch
+lotuswave@Lotuswaves-MBP Simple-DevOps-Project % git push
+Username for 'https://github.com': 1919teja
+Password for 'https://1919teja@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/1919teja/Simple-DevOps-Project.git/'
+lotuswave@Lotuswaves-MBP Simple-DevOps-Project % git push
+Username for 'https://github.com': 1919teja
+Password for 'https://1919teja@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/1919teja/Simple-DevOps-Project.git
+   427cfbc..7ffda9a  master -> master
